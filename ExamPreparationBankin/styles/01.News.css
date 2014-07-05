@@ -14,7 +14,14 @@ article::after{
 article:last-of-type {
     border-bottom: none;
 }
-
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: underline;
+    color:#999999;
+}
 img{
     width: 120px;
     border: 1px solid #000000;
